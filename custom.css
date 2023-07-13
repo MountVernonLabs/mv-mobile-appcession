@@ -1,0 +1,90 @@
+/* make background beige */
+.x-scroll-container {
+    background-color: #ece9df;
+  }
+  
+  /* overide dark mode text */
+  .instantencore-theme-dark, body.instantencore-theme-dark, .x-form-fieldset-title, body.instantencore-theme-dark .text-field input {
+   color: #000 !important;
+  }
+  body.instantencore-theme-dark .text-field input, body.instantencore-theme-dark .text-field .x-field-input .x-clear-icon {
+   border-bottom-color: RGB(0,0,0,.3) !important;
+  }
+  
+  /* add logo to top */
+  .top-banner .top-banner__title {
+    background: url(https://s3.amazonaws.com/data.instantencore.com/image/1078299/Mount+Vernon+Logo.png) no-repeat; 
+   width: 180px; 
+   text-indent:-9999px; 
+   margin-top:0; 
+   background-size:contain; 
+   background-position:center;
+  }
+  
+  /* make listing black */
+  body.instantencore-theme-dark .x-list .x-list-item {
+   color: #000 !important;
+  }
+  .more .more-list-item-tpl .image, .more .list-item-tpl .image, .mv_menu_icon img {
+   -webkit-filter: invert(100%);
+  }
+  
+  /* custom MV styles for sub-menu */
+  .mv_custom {
+   padding:0px;
+   margin:0px;
+  }
+  .mv_padding {
+   padding:20px;
+  }
+  .mv_custom h1 {
+   font-size: 22px; 
+   font-weight: bold;
+   margin-bottom: 5px;
+  }
+  .mv_menu_icon img {
+    height: 30px;
+    width: 30px;
+  }
+  .mv_menu_icon {
+   width: 60px;
+   padding-right: 0px !important;
+  }
+  .mv_link_text {
+   padding-left: 0px !important;
+  }
+  .mv_menu_light {
+   background-color: rgba(255,255,255,0.1);
+  }
+  .mv_menu_dark {
+   background-color: rgba(0,0,0,0.05);
+  }
+  .mv_custom td {
+    padding: 15px;
+    font-size: 0.9rem;
+    align: left;
+  }
+  .mv_custom table {
+   width: 100%;
+  }
+  .mv_rowlink::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1.5em;
+  }
+  .mv_link {
+   padding: 0px !important;
+   width: 0px;
+  }
+  .x-inner {
+   padding: 0px !important
+  }
+  
+  /* customize core interface */
+  
+  .card-container {
+   margin-bottom: 0px !important;
+  }
