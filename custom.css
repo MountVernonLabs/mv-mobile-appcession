@@ -88,3 +88,8 @@
   .card-container {
    margin-bottom: 0px !important;
   }
+
+  /* making dark light */
+  .card-list__description, .card-list__title {
+    color: #fff !important;
+  }
