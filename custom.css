@@ -93,3 +93,6 @@
   .card-list__description, .card-list__title {
     color: #fff !important;
   }
+  body.instantencore-theme-dark .text-field__label span {
+    color: #000 !important;
+  }
